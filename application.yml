@@ -6,5 +6,5 @@ eureka:
          defaultZone: http://localhost:9000/eureka
    instance:
       preferIpAddress: true
-      hostname: localhost
+      hostname: 13.113.245.83
       
