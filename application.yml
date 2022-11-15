@@ -3,7 +3,7 @@ management.endpoints.web.exposure.include: "*"
 eureka:
    client:
       serviceUrl:
-         defaultZone: http://13.113.245.83:8761/eureka/
+         defaultZone: http://13.113.245.83:8761/eureka
    instance:
       preferIpAddress: true
       hostname: 13.113.245.83
