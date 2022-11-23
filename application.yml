@@ -3,9 +3,9 @@ management.endpoints.web.exposure.include: "*"
 eureka:
    client:
       serviceUrl:
-         defaultZone: http://18.176.54.137:8761/eureka
+         defaultZone: http://localhost:8761/eureka
          #defaultZone: http://localhost:8761/eureka
    instance:
       preferIpAddress: true
-      hostname: 18.176.54.137
+      hostname: localhost
       
