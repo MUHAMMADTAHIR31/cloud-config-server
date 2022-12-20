@@ -1,5 +1,8 @@
 management.endpoints.web.exposure.include: "*"
 
+spring:
+  zipkin:
+        baseUrl: http://18.182.26.212:9411  
 eureka:
    client:
       serviceUrl:
@@ -8,6 +11,5 @@ eureka:
    instance:
       preferIpAddress: true
       hostname: 13.114.98.162
-   zipkin:
-        baseUrl: http://18.182.26.212:9411   
+ 
       
