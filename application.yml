@@ -2,14 +2,14 @@ management.endpoints.web.exposure.include: "*"
 
 spring:
   zipkin:
-        baseUrl: http://18.182.26.212:9411  
+        baseUrl: http://localhost:9411  
 eureka:
    client:
       serviceUrl:
-         defaultZone: http://13.114.98.162:8761/eureka
+         defaultZone: http://localhost:8761/eureka
          #defaultZone: http://localhost:8761/eureka
    instance:
       preferIpAddress: true
-      hostname: 13.114.98.162
+      hostname: localhost
  
       
